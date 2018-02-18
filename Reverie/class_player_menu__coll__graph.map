@@ -1,0 +1,10 @@
+<map id="PlayerMenu" name="PlayerMenu">
+<area shape="rect" id="node2" href="$class_mono_behaviour.html" title="{MonoBehaviour\n||}" alt="" coords="5,381,116,458"/>
+<area shape="rect" id="node4" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="315,344,465,495"/>
+<area shape="rect" id="node10" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="471,557,626,811"/>
+<area shape="rect" id="node5" href="$class_character.html" title="Base abstract class for Enemy and Player to inherit from. Defines all shared variables, their constructor and their setters and getters " alt="" coords="639,1331,765,1569"/>
+<area shape="rect" id="node9" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="709,976,823,1083"/>
+<area shape="rect" id="node11" href="$class_enemy.html" title="Defines an AI controller enemy to fight in battle scenes" alt="" coords="493,1619,583,1696"/>
+<area shape="rect" id="node8" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="802,1132,933,1253"/>
+<area shape="rect" id="node13" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="307,160,409,267"/>
+</map>

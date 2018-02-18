@@ -1,0 +1,13 @@
+<map id="DialogueScript" name="DialogueScript">
+<area shape="rect" id="node5" href="$class_object_interaction.html" title="A component to add to collider relating to an object that can interact with the player by pressing th..." alt="" coords="1247,2189,1385,2311"/>
+<area shape="rect" id="node2" href="$class_mono_behaviour.html" title="{MonoBehaviour\n||}" alt="" coords="951,1483,1062,1561"/>
+<area shape="rect" id="node7" href="$class_global_functions.html" title="Provides functions and variables to be accessed by any game object to allow data to be passed between..." alt="" coords="561,1954,677,2119"/>
+<area shape="rect" id="node20" href="$class_player_movement.html" title="A script to control the movement and animations of the player" alt="" coords="1414,1704,1554,1884"/>
+<area shape="rect" id="node9" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="213,160,315,267"/>
+<area shape="rect" id="node11" href="$class_character.html" title="Base abstract class for Enemy and Player to inherit from. Defines all shared variables, their constructor and their setters and getters " alt="" coords="506,1403,633,1641"/>
+<area shape="rect" id="node13" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="451,1175,581,1296"/>
+<area shape="rect" id="node14" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="560,976,675,1083"/>
+<area shape="rect" id="node15" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="747,557,901,811"/>
+<area shape="rect" id="node17" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="391,344,540,495"/>
+<area shape="rect" id="node10" href="$class_enemy.html" title="Defines an AI controller enemy to fight in battle scenes" alt="" coords="657,1755,746,1833"/>
+</map>

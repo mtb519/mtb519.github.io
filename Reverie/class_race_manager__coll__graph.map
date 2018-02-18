@@ -1,0 +1,7 @@
+<map id="RaceManager" name="RaceManager">
+<area shape="rect" id="node12" href="$class_duck_a_i.html" title="{DuckAI\n||+ BoidReachedGoal()\l+ PlayerHitGoal()\l&#45; Start()\l&#45; LateUpdate()\l&#45; MoveTowardsOtherBoids()\l&#45; AvoidOtherBoids()\l&#45; MoveTowardsGoal()\l}" alt="" coords="548,675,729,840"/>
+<area shape="rect" id="node2" href="$class_mono_behaviour.html" title="{MonoBehaviour\n||}" alt="" coords="387,5,498,83"/>
+<area shape="rect" id="node3" href="$class_countdown.html" title="{Countdown\n||+ StartCountdown()\l+ Update()\l}" alt="" coords="667,145,802,237"/>
+<area shape="rect" id="node10" href="$class_goal.html" title="{Goal\n||&#45; Start()\l&#45; OnTriggerEnter2D()\l}" alt="" coords="332,903,473,995"/>
+<area shape="rect" id="node13" href="$class_boid.html" title="{Boid\n||&#45; Start()\l&#45; Update()\l&#45; FixedUpdate()\l}" alt="" coords="347,1057,458,1164"/>
+</map>
