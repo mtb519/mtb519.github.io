@@ -1,10 +1,29 @@
 var searchData=
 [
   ['gainexp',['gainExp',['../class_player.html#aea5a87e9456ca8c655300367517c269e',1,'Player']]],
+  ['gameevent',['GameEvent',['../class_game_events_1_1_game_event.html',1,'GameEvents.GameEvent&lt; TGameEventArgs &gt;'],['../class_game_events_1_1_game_event.html#a3efe0847698a271bd200eec9a2fd1f33',1,'GameEvents.GameEvent.gameEvent()']]],
+  ['gameevent_3c_20battleendedeventargs_20_3e',['GameEvent&lt; BattleEndedEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20battleeventargs_20_3e',['GameEvent&lt; BattleEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20battlemoveargs_20_3e',['GameEvent&lt; BattleMoveArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20battlestartedeventargs_20_3e',['GameEvent&lt; BattleStartedEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20beatlevelargs_20_3e',['GameEvent&lt; BeatLevelArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20charactereventargs_20_3e',['GameEvent&lt; CharacterEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20gameeventargs_20_3e',['GameEvent&lt; GameEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20intchangedargs_20_3e',['GameEvent&lt; IntChangedArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20interactionargs_20_3e',['GameEvent&lt; InteractionArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20itemeventargs_20_3e',['GameEvent&lt; ItemEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameevent_3c_20scenechangedeventargs_20_3e',['GameEvent&lt; SceneChangedEventArgs &gt;',['../class_game_events_1_1_game_event.html',1,'GameEvents']]],
+  ['gameeventargs',['GameEventArgs',['../class_game_event_args.html',1,'']]],
+  ['gameevents',['GameEvents',['../class_game_events.html',1,'']]],
+  ['gamemanager',['GameManager',['../class_game_manager.html',1,'']]],
+  ['gameover',['GameOver',['../class_game_events.html#ae288e9b8a35db25863afa7b8a61f9435',1,'GameEvents.GameOver()'],['../class_game_manager.html#a8d69157cb6b97eabeff2374d8e9adeaf',1,'GameManager.GameOver()']]],
   ['getfirstplayer',['getFirstPlayer',['../class_data_manager.html#a9c9256958cd8245360b53384741fa170',1,'DataManager']]],
-  ['getnextgoal',['GetNextGoal',['../class_race_manager.html#ab866c386f3b1578cc111aa43740e5988',1,'RaceManager']]],
-  ['gettexture',['getTexture',['../class_sprite_manager.html#aaad08d35b4b933daffee72031d496ecf',1,'SpriteManager']]],
+  ['getitemfromname',['getItemFromName',['../class_data_manager.html#a4fd57a34697498c3c103eca5ff9a39f5',1,'DataManager']]],
+  ['getmovefromplayer',['getMoveFromPlayer',['../class_data_manager.html#aa1f2aa4cde687f08cb1c67c1edcf3192',1,'DataManager']]],
+  ['getmovefromstored',['getMoveFromStored',['../class_data_manager.html#afd65d8e7cf6d262e8cc55ebfa7c59f35',1,'DataManager']]],
+  ['getobjectdata',['GetObjectData',['../class_quest_objective.html#a8818e1b6c364e98a302f8fa5a2620df7',1,'QuestObjective.GetObjectData()'],['../class_quest_objectives_1_1_reach_level.html#a73a795f51aca32801ab26b769f330040',1,'QuestObjectives.ReachLevel.GetObjectData()'],['../class_quest_objectives_1_1_defeat_specific.html#aa01d7b1dab0218ae57d7e685ad352a41',1,'QuestObjectives.DefeatSpecific.GetObjectData()'],['../class_quest_objectives_1_1_win_battle_within_x_turns.html#a4b172e960cc82e990a08baae40fe580d',1,'QuestObjectives.WinBattleWithinXTurns.GetObjectData()'],['../class_quest_objectives_1_1_obtain_item.html#acb51b4057ec3b1f97d1c5825c99a9501',1,'QuestObjectives.ObtainItem.GetObjectData()'],['../class_quest_objectives_1_1_obtain_player.html#aba07e74eb9bf9235c1bc7e8efc585c93',1,'QuestObjectives.ObtainPlayer.GetObjectData()'],['../class_quest_objectives_1_1_win_battle_without_specials.html#adda2ef37f95d31e7ae996f5192641e07',1,'QuestObjectives.WinBattleWithoutSpecials.GetObjectData()'],['../class_quest_objectives_1_1_minigame_beat_wave_x.html#a6567b8fd172cdcae9ca63b6b0e1d1892',1,'QuestObjectives.MinigameBeatWaveX.GetObjectData()'],['../class_quest_objectives_1_1_minigame_score.html#a9d18170b2c9c2512d0bc7e1fc726cfd0',1,'QuestObjectives.MinigameScore.GetObjectData()'],['../class_quest_objectives_1_1_beat_level.html#a3756a8a02cc41b669066ceacf109d05e',1,'QuestObjectives.BeatLevel.GetObjectData()'],['../class_quest_objectives_1_1_speedrun_level.html#af8a91d37b39955891d5825551040fc4e',1,'QuestObjectives.SpeedrunLevel.GetObjectData()']]],
+  ['getobjectives',['getObjectives',['../class_quest.html#aada4bbc52a532fd91cd6dab59a239e33',1,'Quest']]],
+  ['getteammate',['getTeamMate',['../class_main_battle.html#a55821a9b4c4819366bd4481d2dca6c8d',1,'MainBattle']]],
   ['globalfunctions',['GlobalFunctions',['../class_global_functions.html',1,'']]],
-  ['goal',['Goal',['../class_goal.html',1,'']]],
-  ['goals',['goals',['../class_race_manager.html#adebddccbf90ef865cb120a311d4cb43d',1,'RaceManager']]]
+  ['goback',['goBack',['../class_town_handler.html#a0af467bd84300d8d5bad0ca49690dd6d',1,'TownHandler']]]
 ];

@@ -1,8 +1,8 @@
 <map id="Enemy" name="Enemy">
-<area shape="rect" id="node7" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="615,300,769,553"/>
-<area shape="rect" id="node2" href="$class_character.html" title="Base abstract class for Enemy and Player to inherit from. Defines all shared variables, their constructor and their setters and getters " alt="" coords="375,1073,502,1312"/>
-<area shape="rect" id="node6" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="432,719,547,825"/>
-<area shape="rect" id="node9" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="553,1361,703,1512"/>
-<area shape="rect" id="node5" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="233,875,364,996"/>
-<area shape="rect" id="node10" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="146,583,249,689"/>
+<area shape="rect" id="node8" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="209,300,364,553"/>
+<area shape="rect" id="node2" href="$class_character.html" title="Base abstract class for Enemy and Player to inherit from. Defines all shared variables, their constructor and their setters and getters " alt="" coords="422,1088,549,1371"/>
+<area shape="rect" id="node7" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="451,733,565,840"/>
+<area shape="rect" id="node9" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="263,1420,412,1571"/>
+<area shape="rect" id="node6" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="671,889,801,1011"/>
+<area shape="rect" id="node10" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="877,366,979,487"/>
 </map>

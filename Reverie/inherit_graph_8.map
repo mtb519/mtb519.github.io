@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_shop_item.html" title="A wrapper class for shop items, containing the item and the appropriate cost for each item ..." alt="" coords="5,5,83,32"/>
+<area shape="rect" id="node1" href="$class_data_manager_1_1_stored_data_1_1_special_move.html" title="DataManager.StoredData.SpecialMove" alt="" coords="5,209,251,235"/>
+<area shape="rect" id="node2" href="$class_data_manager_1_1_stored_data_1_1_healing_spell.html" title="DataManager.StoredData.Healing\lSpell" alt="" coords="302,5,517,47"/>
+<area shape="rect" id="node3" href="$class_data_manager_1_1_stored_data_1_1_increase_money.html" title="DataManager.StoredData.Increase\lMoney" alt="" coords="299,71,520,112"/>
+<area shape="rect" id="node4" href="$class_data_manager_1_1_stored_data_1_1_lower_defence.html" title="DataManager.StoredData.Lower\lDefence" alt="" coords="306,136,513,177"/>
+<area shape="rect" id="node5" href="$class_data_manager_1_1_stored_data_1_1_lower_speed.html" title="DataManager.StoredData.Lower\lSpeed" alt="" coords="306,201,513,243"/>
+<area shape="rect" id="node6" href="$class_data_manager_1_1_stored_data_1_1_magic_attack.html" title="DataManager.StoredData.Magic\lAttack" alt="" coords="306,267,513,308"/>
+<area shape="rect" id="node7" href="$class_data_manager_1_1_stored_data_1_1_raise_attack.html" title="DataManager.StoredData.Raise\lAttack" alt="" coords="307,332,512,373"/>
+<area shape="rect" id="node8" href="$class_data_manager_1_1_stored_data_1_1_raise_defence.html" title="DataManager.StoredData.Raise\lDefence" alt="" coords="307,397,512,439"/>
 </map>

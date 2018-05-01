@@ -1,9 +1,9 @@
 <map id="DataManager" name="DataManager">
-<area shape="rect" id="node2" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="463,160,566,267"/>
-<area shape="rect" id="node5" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="279,344,428,495"/>
-<area shape="rect" id="node6" href="$class_character.html" title="Base abstract class for Enemy and Player to inherit from. Defines all shared variables, their constructor and their setters and getters " alt="" coords="378,1331,505,1569"/>
-<area shape="rect" id="node7" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="604,1132,735,1253"/>
-<area shape="rect" id="node8" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="748,976,863,1083"/>
-<area shape="rect" id="node9" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="431,557,585,811"/>
-<area shape="rect" id="node10" href="$class_enemy.html" title="Defines an AI controller enemy to fight in battle scenes" alt="" coords="213,1619,302,1696"/>
+<area shape="rect" id="node2" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="265,160,367,281"/>
+<area shape="rect" id="node6" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="367,359,516,509"/>
+<area shape="rect" id="node7" href="$class_character.html" title="Base abstract class for Enemy and Player to inherit from. Defines all shared variables, their constructor and their setters and getters " alt="" coords="409,1287,535,1569"/>
+<area shape="rect" id="node9" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="531,1088,661,1209"/>
+<area shape="rect" id="node10" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="643,932,757,1039"/>
+<area shape="rect" id="node11" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="467,594,621,847"/>
+<area shape="rect" id="node12" href="$class_enemy.html" title="Defines an AI controller enemy to fight in battle scenes" alt="" coords="93,1619,182,1696"/>
 </map>

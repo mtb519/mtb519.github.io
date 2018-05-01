@@ -1,0 +1,6 @@
+<map id="DataManager.StoredData" name="DataManager.StoredData">
+<area shape="rect" id="node2" href="$class_data_manager_1_1_stored_data_1_1_item.html" title="{DataManager.StoredData.Item\n||}" alt="" coords="5,202,203,279"/>
+<area shape="rect" id="node7" href="$class_data_manager_1_1_stored_data_1_1_player.html" title="{DataManager.StoredData.Player\n||}" alt="" coords="410,406,619,483"/>
+<area shape="rect" id="node4" href="$class_data_manager_1_1_stored_data_1_1_location_data.html" title="{DataManager.StoredData.LocationData\n||}" alt="" coords="744,202,992,279"/>
+<area shape="rect" id="node8" href="$class_data_manager_1_1_stored_data_1_1_special_move.html" title="{DataManager.StoredData.SpecialMove\n||}" alt="" coords="392,202,637,279"/>
+</map>

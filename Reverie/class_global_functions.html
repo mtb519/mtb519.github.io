@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="documentation_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Reverie
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.1</span>
    </div>
   </td>
  </tr>
@@ -76,12 +76,12 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Provides functions and variables to be accessed by any game object to allow data to be passed between scenes  
+<p>Provides functions and variables to be accessed by any game object to allow data to be passed between scenes Executable version of the game can be found at: <a href="http://www.reverie.castleentertainment.co.uk/wp-content/themes/reverie/DaemonYork2.zip">http://www.reverie.castleentertainment.co.uk/wp-content/themes/reverie/DaemonYork2.zip</a>.  
  <a href="class_global_functions.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for GlobalFunctions:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_global_functions__inherit__graph.svg" width="127" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_global_functions__inherit__graph.svg" width="158" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -121,6 +121,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>getMoney</b> ()</td></
 <tr class="memitem:af0c52618f67adb46ac396f0cd1231b25"><td class="memItemLeft" align="right" valign="top"><a id="af0c52618f67adb46ac396f0cd1231b25"></a>
 <a class="el" href="class_item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getItem</b> ()</td></tr>
 <tr class="separator:af0c52618f67adb46ac396f0cd1231b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7613f83567287beec045e4809cf0710"><td class="memItemLeft" align="right" valign="top"><a id="aa7613f83567287beec045e4809cf0710"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>getPreviousScene</b> ()</td></tr>
+<tr class="separator:aa7613f83567287beec045e4809cf0710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac11baaba4f5bd90098e2c9f9dff5d35f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_global_functions.html#ac11baaba4f5bd90098e2c9f9dff5d35f">endBattle</a> ()</td></tr>
 <tr class="memdesc:ac11baaba4f5bd90098e2c9f9dff5d35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ends the battle, loading the <a class="el" href="class_global_functions.html#acb39da732dff62760cc29eb1729eefa3" title="Refers to the scene a battle was initiated from so it can be returned to afterwards">previousScene</a>, resuming <a class="el" href="class_global_functions.html#a5afda23535aea00491d653b993006417" title="Refers to the music playing before the battle was initiated so it can be resumed afterwards">previousBGM</a> and setting the <a class="el" href="class_global_functions.html#a145def136ae9191fd9038ade621515a8" title="Refers to the player object so it can be set active or inactive">player</a> object to active again <br />
  <a href="#ac11baaba4f5bd90098e2c9f9dff5d35f">More...</a><br /></td></tr>
@@ -147,7 +150,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:adc1d068e5df57486aedf7b29213ad606"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current level that the player is up to <a href="#adc1d068e5df57486aedf7b29213ad606">More...</a><br /></td></tr>
 <tr class="separator:adc1d068e5df57486aedf7b29213ad606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4b7149b50daada865e56a2811f2e12b"><td class="memItemLeft" align="right" valign="top"><a id="ad4b7149b50daada865e56a2811f2e12b"></a>
-string []&#160;</td><td class="memItemRight" valign="bottom"><b>levelOrder</b> = new string[] { &quot;CS&quot;, &quot;TFTV&quot;, &quot;RCH&quot;, &quot;PHY&quot;, &quot;LIB&quot;, &quot;LAW&quot;, &quot;MUS&quot;, &quot;CH&quot; }</td></tr>
+string []&#160;</td><td class="memItemRight" valign="bottom"><b>levelOrder</b> = new string[] { &quot;CS&quot;, &quot;TFTV&quot;, &quot;RCH&quot;, &quot;PHY&quot;, &quot;LIB&quot;, &quot;LAW&quot;, &quot;CHALL&quot;, &quot;DER&quot;, &quot;MUS&quot;, &quot;HES&quot; }</td></tr>
 <tr class="separator:ad4b7149b50daada865e56a2811f2e12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -178,7 +181,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:acb39da732dff62760cc29eb1729eefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides functions and variables to be accessed by any game object to allow data to be passed between scenes </p>
+<div class="textblock"><p>Provides functions and variables to be accessed by any game object to allow data to be passed between scenes Executable version of the game can be found at: <a href="http://www.reverie.castleentertainment.co.uk/wp-content/themes/reverie/DaemonYork2.zip">http://www.reverie.castleentertainment.co.uk/wp-content/themes/reverie/DaemonYork2.zip</a>. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aff006cbcae32ed9bedd7796bec726b44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff006cbcae32ed9bedd7796bec726b44">&#9670;&nbsp;</a></span>ItemTypes</h2>

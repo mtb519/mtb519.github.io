@@ -1,0 +1,3 @@
+<map id="QuestObjectives.MinigameBeatWaveX" name="QuestObjectives.MinigameBeatWaveX">
+<area shape="rect" id="node2" href="$class_quest_objective.html" title="Base quest objective class to be extended by actual quest objectives " alt="" coords="23,145,190,443"/>
+</map>

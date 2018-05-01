@@ -1,0 +1,13 @@
+<map id="GameEventArgs" name="GameEventArgs">
+<area shape="rect" id="node3" href="$class_battle_ended_event_args.html" title="GameEventArgs class to pass information about the end of a battle. " alt="" coords="5,256,177,392"/>
+<area shape="rect" id="node4" href="$class_battle_event_args.html" title="GameEventArgs class to pass information about a battle " alt="" coords="201,271,336,377"/>
+<area shape="rect" id="node5" href="$class_battle_move_args.html" title="GameEventArgs class to pass information about a move performed by either the player or an enemy ..." alt="" coords="361,256,494,392"/>
+<area shape="rect" id="node6" href="$class_battle_started_event_args.html" title="GameEventArgs class to pass infomation about the start of a battle. See GlobalFunctions.createBattle " alt="" coords="519,256,696,392"/>
+<area shape="rect" id="node7" href="$class_beat_level_args.html" title="{BeatLevelArgs\n|+ scene\l+ level\l+ levelNum\l|+ BeatLevelArgs()\l}" alt="" coords="721,271,846,377"/>
+<area shape="rect" id="node8" href="$class_character_event_args.html" title="GameEventArgs class to pass a Character with an event " alt="" coords="870,285,1027,363"/>
+<area shape="rect" id="node9" href="$class_int_changed_args.html" title="GameEventArgs class to pass information that a value changed " alt="" coords="1052,278,1187,370"/>
+<area shape="rect" id="node10" href="$class_interaction_args.html" title="GameEventArgs class to pass information about an interaction the player makes " alt="" coords="1211,271,1340,377"/>
+<area shape="rect" id="node11" href="$class_item_event_args.html" title="GameEventArgs class to pass an Item with an event " alt="" coords="1364,285,1491,363"/>
+<area shape="rect" id="node12" href="$class_scene_changed_event_args.html" title="GameEventArgs class to pass information about the change of scene " alt="" coords="1515,278,1705,370"/>
+<area shape="rect" id="node2" href="$class_event_args.html" title="{EventArgs\n||}" alt="" coords="825,5,907,83"/>
+</map>

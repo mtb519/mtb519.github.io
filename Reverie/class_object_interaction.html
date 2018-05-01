@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="documentation_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Reverie
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.1</span>
    </div>
   </td>
  </tr>
@@ -80,8 +80,7 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for ObjectInteraction:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_object_interaction__inherit__graph.svg" width="148" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_object_interaction__inherit__graph.svg" width="148" height="360"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ObjectInteraction:</div>
@@ -97,7 +96,7 @@ Public Member Functions</h2></td></tr>
  <a href="#af849a0a8fdadf1bc381ab2c21a160c7e">More...</a><br /></td></tr>
 <tr class="separator:af849a0a8fdadf1bc381ab2c21a160c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c3548d6370788595dd5ca6c4b859a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_interaction.html#a03c3548d6370788595dd5ca6c4b859a1">endOfDialogue</a> ()</td></tr>
-<tr class="memdesc:a03c3548d6370788595dd5ca6c4b859a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_dialogue_script.html" title="Script to show dialogue, as well as step through multiple lines and close afterwards ...">DialogueScript</a> once all dialogue lines have been read, giving the user an item and/or starting a battle, duck racing or opening the shop as appropiate  <a href="#a03c3548d6370788595dd5ca6c4b859a1">More...</a><br /></td></tr>
+<tr class="memdesc:a03c3548d6370788595dd5ca6c4b859a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_dialogue_script.html" title="Script to show dialogue, as well as step through multiple lines and close afterwards ...">DialogueScript</a> once all dialogue lines have been read, giving the user an item and/or starting a battle as appropiate  <a href="#a03c3548d6370788595dd5ca6c4b859a1">More...</a><br /></td></tr>
 <tr class="separator:a03c3548d6370788595dd5ca6c4b859a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -114,12 +113,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>pseudoKeyPress</b></t
 <tr class="memitem:a8f2c5f5ebae5954a40361c1afcc1beec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_interaction.html#a8f2c5f5ebae5954a40361c1afcc1beec">createBattle</a> = false</td></tr>
 <tr class="memdesc:a8f2c5f5ebae5954a40361c1afcc1beec"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>true</code>, create a battle at the end of all the dialogue, requiring a <a class="el" href="class_battle_descriptor.html" title="A component that be added to an object to describe the parameters of a battle from within the Unity E...">BattleDescriptor</a> component  <a href="#a8f2c5f5ebae5954a40361c1afcc1beec">More...</a><br /></td></tr>
 <tr class="separator:a8f2c5f5ebae5954a40361c1afcc1beec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddce303654c1f91fa8ba7e0f1240938"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_interaction.html#a0ddce303654c1f91fa8ba7e0f1240938">openShop</a> = false</td></tr>
-<tr class="memdesc:a0ddce303654c1f91fa8ba7e0f1240938"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>true</code>, open a shop menu at the end of all the dialogue  <a href="#a0ddce303654c1f91fa8ba7e0f1240938">More...</a><br /></td></tr>
-<tr class="separator:a0ddce303654c1f91fa8ba7e0f1240938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bbc46541329c6297f298b3be1d12c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_interaction.html#aa7bbc46541329c6297f298b3be1d12c4">startDuckRacing</a> = false</td></tr>
-<tr class="memdesc:aa7bbc46541329c6297f298b3be1d12c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>true</code>, open the duck racing gamemode at the end of the dialogue.  <a href="#aa7bbc46541329c6297f298b3be1d12c4">More...</a><br /></td></tr>
-<tr class="separator:aa7bbc46541329c6297f298b3be1d12c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -174,7 +167,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called by <a class="el" href="class_dialogue_script.html" title="Script to show dialogue, as well as step through multiple lines and close afterwards ...">DialogueScript</a> once all dialogue lines have been read, giving the user an item and/or starting a battle, duck racing or opening the shop as appropiate </p>
+<p>Called by <a class="el" href="class_dialogue_script.html" title="Script to show dialogue, as well as step through multiple lines and close afterwards ...">DialogueScript</a> once all dialogue lines have been read, giving the user an item and/or starting a battle as appropiate </p>
 
 </div>
 </div>
@@ -298,22 +291,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ddce303654c1f91fa8ba7e0f1240938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ddce303654c1f91fa8ba7e0f1240938">&#9670;&nbsp;</a></span>openShop</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ObjectInteraction.openShop = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If <code>true</code>, open a shop menu at the end of all the dialogue </p>
-
-</div>
-</div>
 <a id="a5bcbc1251feac22f1a427872b6bf30ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bcbc1251feac22f1a427872b6bf30ff">&#9670;&nbsp;</a></span>SFX</h2>
 
@@ -335,22 +312,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The sound effect to play when interacted </p>
-
-</div>
-</div>
-<a id="aa7bbc46541329c6297f298b3be1d12c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7bbc46541329c6297f298b3be1d12c4">&#9670;&nbsp;</a></span>startDuckRacing</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ObjectInteraction.startDuckRacing = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If <code>true</code>, open the duck racing gamemode at the end of the dialogue. </p>
 
 </div>
 </div>

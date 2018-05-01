@@ -1,0 +1,12 @@
+<map id="QuestObjective" name="QuestObjective">
+<area shape="rect" id="node3" href="$class_quest_objectives_1_1_beat_level.html" title="Quest objective to beat a certain level " alt="" coords="5,549,183,715"/>
+<area shape="rect" id="node4" href="$class_quest_objectives_1_1_defeat_specific.html" title="Quest objective to defeat a specific enemy " alt="" coords="207,549,411,715"/>
+<area shape="rect" id="node5" href="$class_quest_objectives_1_1_minigame_beat_wave_x.html" title="Quest objective to beat a certain wave in the minigame " alt="" coords="435,535,612,729"/>
+<area shape="rect" id="node6" href="$class_quest_objectives_1_1_minigame_score.html" title="Quest objective to obtain a certain score in the minigame " alt="" coords="636,535,813,729"/>
+<area shape="rect" id="node7" href="$class_quest_objectives_1_1_obtain_item.html" title="Quest objective to obtain an item by any means (finding, buying, winning) " alt="" coords="838,557,1022,707"/>
+<area shape="rect" id="node8" href="$class_quest_objectives_1_1_obtain_player.html" title="Quest objective to obtain a certain player " alt="" coords="1047,557,1243,707"/>
+<area shape="rect" id="node9" href="$class_quest_objectives_1_1_reach_level.html" title="Quest objective to reach a desired level on any character " alt="" coords="1267,557,1454,707"/>
+<area shape="rect" id="node10" href="$class_quest_objectives_1_1_speedrun_level.html" title="Quest objective to beat a certain level within a set amount of time " alt="" coords="1478,491,1654,773"/>
+<area shape="rect" id="node11" href="$class_quest_objectives_1_1_win_battle_within_x_turns.html" title="Quest objective to win a battle within a specified amount of turns " alt="" coords="1678,520,1857,744"/>
+<area shape="rect" id="node12" href="$class_quest_objectives_1_1_win_battle_without_specials.html" title="Quest objective to win a battle without using any special attacks " alt="" coords="1881,535,2075,729"/>
+</map>

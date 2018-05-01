@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="documentation_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Reverie
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.1</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,9 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_data_manager-members.html">List of all members</a>  </div>
@@ -82,6 +84,12 @@ Collaboration diagram for DataManager:</div>
 </div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager_1_1_stored_data.html">StoredData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializable classes storing save data  <a href="class_data_manager_1_1_stored_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a25f86c59f07a95df2776fed8211f502f"><td class="memItemLeft" align="right" valign="top"><a id="a25f86c59f07a95df2776fed8211f502f"></a>
@@ -102,9 +110,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6cecf2aa09b2c5a98bf9569fb2725883"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#a6cecf2aa09b2c5a98bf9569fb2725883">addItem</a> (<a class="el" href="class_item.html">Item</a> item)</td></tr>
 <tr class="memdesc:a6cecf2aa09b2c5a98bf9569fb2725883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an item to items  <a href="#a6cecf2aa09b2c5a98bf9569fb2725883">More...</a><br /></td></tr>
 <tr class="separator:a6cecf2aa09b2c5a98bf9569fb2725883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72065782c544266b754bc22a6b1d28ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#a72065782c544266b754bc22a6b1d28ff">removeItem</a> (<a class="el" href="class_item.html">Item</a> item)</td></tr>
+<tr class="memdesc:a72065782c544266b754bc22a6b1d28ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item to items  <a href="#a72065782c544266b754bc22a6b1d28ff">More...</a><br /></td></tr>
+<tr class="separator:a72065782c544266b754bc22a6b1d28ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afde59e90b0d45a759a820866aced4484"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#afde59e90b0d45a759a820866aced4484">countItems</a> ()</td></tr>
 <tr class="memdesc:afde59e90b0d45a759a820866aced4484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts all items in items which are not null  <a href="#afde59e90b0d45a759a820866aced4484">More...</a><br /></td></tr>
 <tr class="separator:afde59e90b0d45a759a820866aced4484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7aea7271a392273234c062b420a149d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#ad7aea7271a392273234c062b420a149d">Save</a> ()</td></tr>
+<tr class="memdesc:ad7aea7271a392273234c062b420a149d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all of the data and maps it to my own serializable classes and then puts them into the savefile  <a href="#ad7aea7271a392273234c062b420a149d">More...</a><br /></td></tr>
+<tr class="separator:ad7aea7271a392273234c062b420a149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a160e6fd71c00b13b3663363b0833e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#a9a160e6fd71c00b13b3663363b0833e0">Load</a> ()</td></tr>
+<tr class="memdesc:a9a160e6fd71c00b13b3663363b0833e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all saved data mapped to my classes and loads it into the game  <a href="#a9a160e6fd71c00b13b3663363b0833e0">More...</a><br /></td></tr>
+<tr class="separator:a9a160e6fd71c00b13b3663363b0833e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd65d8e7cf6d262e8cc55ebfa7c59f35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#afd65d8e7cf6d262e8cc55ebfa7c59f35">getMoveFromStored</a> (<a class="el" href="class_data_manager_1_1_stored_data_1_1_special_move.html">StoredData.SpecialMove</a> specialMove)</td></tr>
+<tr class="memdesc:afd65d8e7cf6d262e8cc55ebfa7c59f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes the saved data move and returns the correct method needed for the game  <a href="#afd65d8e7cf6d262e8cc55ebfa7c59f35">More...</a><br /></td></tr>
+<tr class="separator:afd65d8e7cf6d262e8cc55ebfa7c59f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f2aa4cde687f08cb1c67c1edcf3192"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_manager_1_1_stored_data_1_1_special_move.html">StoredData.SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#aa1f2aa4cde687f08cb1c67c1edcf3192">getMoveFromPlayer</a> (<a class="el" href="class_special_move.html">SpecialMove</a> specialMove)</td></tr>
+<tr class="memdesc:aa1f2aa4cde687f08cb1c67c1edcf3192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the move in the game and returns a move that is able to be saved  <a href="#aa1f2aa4cde687f08cb1c67c1edcf3192">More...</a><br /></td></tr>
+<tr class="separator:aa1f2aa4cde687f08cb1c67c1edcf3192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4fd57a34697498c3c103eca5ff9a39f5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_manager.html#a4fd57a34697498c3c103eca5ff9a39f5">getItemFromName</a> (string name)</td></tr>
+<tr class="memdesc:a4fd57a34697498c3c103eca5ff9a39f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item from name  <a href="#a4fd57a34697498c3c103eca5ff9a39f5">More...</a><br /></td></tr>
+<tr class="separator:a4fd57a34697498c3c103eca5ff9a39f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -114,6 +143,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a7869cefda3a501130a748fd388fda0ad"><td class="memItemLeft" align="right" valign="top"><a id="a7869cefda3a501130a748fd388fda0ad"></a>
 <a class="el" href="class_item.html">Item</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>Items</b><code> [get]</code></td></tr>
 <tr class="separator:a7869cefda3a501130a748fd388fda0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c332ad726cfda2d976de6c9d3bc57c3"><td class="memItemLeft" align="right" valign="top"><a id="a3c332ad726cfda2d976de6c9d3bc57c3"></a>
+List&lt; <a class="el" href="class_quest.html">Quest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Quests</b><code> [get]</code></td></tr>
+<tr class="separator:a3c332ad726cfda2d976de6c9d3bc57c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41dc07a91b2a0aac5688e2fbc498d92a"><td class="memItemLeft" align="right" valign="top"><a id="a41dc07a91b2a0aac5688e2fbc498d92a"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Money</b><code> [get, set]</code></td></tr>
 <tr class="separator:a41dc07a91b2a0aac5688e2fbc498d92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,6 +161,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad14c331d442368e139b0dd884e11db36"><td class="memItemLeft" align="right" valign="top"><a id="ad14c331d442368e139b0dd884e11db36"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>money</b></td></tr>
 <tr class="separator:ad14c331d442368e139b0dd884e11db36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4946bf47ebda05933a139430d381f8fc"><td class="memItemLeft" align="right" valign="top"><a id="a4946bf47ebda05933a139430d381f8fc"></a>
+List&lt; <a class="el" href="class_quest.html">Quest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>quests</b></td></tr>
+<tr class="separator:a4946bf47ebda05933a139430d381f8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An object to store all player data including players, items and money and provide useful functions </p>
@@ -257,6 +292,138 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>money</b></td></tr>
 
 </div>
 </div>
+<a id="a4fd57a34697498c3c103eca5ff9a39f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fd57a34697498c3c103eca5ff9a39f5">&#9670;&nbsp;</a></span>getItemFromName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_item.html">Item</a> DataManager.getItemFromName </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets item from name </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemName</td><td>The item name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An item instance</dd></dl>
+
+</div>
+</div>
+<a id="aa1f2aa4cde687f08cb1c67c1edcf3192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f2aa4cde687f08cb1c67c1edcf3192">&#9670;&nbsp;</a></span>getMoveFromPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_manager_1_1_stored_data_1_1_special_move.html">StoredData.SpecialMove</a> DataManager.getMoveFromPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td>
+          <td class="paramname"><em>specialMove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the move in the game and returns a move that is able to be saved </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialMove</td><td>The special move from the player to convert it to be stored</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Storable item</dd></dl>
+
+</div>
+</div>
+<a id="afd65d8e7cf6d262e8cc55ebfa7c59f35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd65d8e7cf6d262e8cc55ebfa7c59f35">&#9670;&nbsp;</a></span>getMoveFromStored()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_special_move.html">SpecialMove</a> DataManager.getMoveFromStored </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_data_manager_1_1_stored_data_1_1_special_move.html">StoredData.SpecialMove</a>&#160;</td>
+          <td class="paramname"><em>specialMove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Takes the saved data move and returns the correct method needed for the game </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialMove</td><td>The stored move</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Move used for game</dd></dl>
+
+</div>
+</div>
+<a id="a9a160e6fd71c00b13b3663363b0833e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a160e6fd71c00b13b3663363b0833e0">&#9670;&nbsp;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DataManager.Load </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets all saved data mapped to my classes and loads it into the game </p>
+
+</div>
+</div>
 <a id="a2df915d726f196e9ca423be29c030f37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2df915d726f196e9ca423be29c030f37">&#9670;&nbsp;</a></span>playersAlive()</h2>
 
@@ -282,6 +449,67 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>money</b></td></tr>
 
 <p>Returns the number of players in players that are not null and have health above zero </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of players alive</dd></dl>
+
+</div>
+</div>
+<a id="a72065782c544266b754bc22a6b1d28ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72065782c544266b754bc22a6b1d28ff">&#9670;&nbsp;</a></span>removeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DataManager.removeItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_item.html">Item</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes an item to items </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>The item to remove</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad7aea7271a392273234c062b420a149d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7aea7271a392273234c062b420a149d">&#9670;&nbsp;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DataManager.Save </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collects all of the data and maps it to my own serializable classes and then puts them into the savefile </p>
 
 </div>
 </div>

@@ -1,0 +1,4 @@
+<map id="DataManager.StoredData.Player" name="DataManager.StoredData.Player">
+<area shape="rect" id="node2" href="$class_data_manager_1_1_stored_data_1_1_item.html" title="{DataManager.StoredData.Item\n||}" alt="" coords="92,202,289,279"/>
+<area shape="rect" id="node4" href="$class_data_manager_1_1_stored_data_1_1_special_move.html" title="{DataManager.StoredData.SpecialMove\n||}" alt="" coords="313,202,559,279"/>
+</map>

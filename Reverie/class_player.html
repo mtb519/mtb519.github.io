@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="documentation_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Reverie
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.1</span>
    </div>
   </td>
  </tr>
@@ -91,9 +91,9 @@ Collaboration diagram for Player:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a73a6083eb702b3f329a002e87ab87d5b"><td class="memItemLeft" align="right" valign="top"><a id="a73a6083eb702b3f329a002e87ab87d5b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Player</b> (string name, int level, int health, int attack, int defence, int maximumMagic, int magic, int luck, int speed, int <a class="el" href="class_player.html#ab21c747363b226e9e0f4493cb9d70409">exp</a>, <a class="el" href="class_item.html">Item</a> <a class="el" href="class_player.html#a840287e9537842c7376ea8584e57d655">item</a>, <a class="el" href="class_special_move.html">SpecialMove</a> special1, <a class="el" href="class_special_move.html">SpecialMove</a> special2, string image_ref=null)</td></tr>
-<tr class="separator:a73a6083eb702b3f329a002e87ab87d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22035a8870766fc123b4b8ba733ba2ec"><td class="memItemLeft" align="right" valign="top"><a id="a22035a8870766fc123b4b8ba733ba2ec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Player</b> (string name, int level, int health, int attack, int defence, int maximumMagic, int magic, int luck, int speed, int <a class="el" href="class_player.html#ab21c747363b226e9e0f4493cb9d70409">exp</a>, <a class="el" href="class_item.html">Item</a> <a class="el" href="class_player.html#a840287e9537842c7376ea8584e57d655">item</a>, bool canRage, <a class="el" href="class_special_move.html">SpecialMove</a> special1, <a class="el" href="class_special_move.html">SpecialMove</a> special2, Texture2D image=null)</td></tr>
+<tr class="separator:a22035a8870766fc123b4b8ba733ba2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea5a87e9456ca8c655300367517c269e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player.html#aea5a87e9456ca8c655300367517c269e">gainExp</a> (int gainedExp)</td></tr>
 <tr class="memdesc:aea5a87e9456ca8c655300367517c269e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursive function to gain experience points. If enough exp to level up, call <a class="el" href="class_player.html#a00d472bd1111adabe2b54b66a21198f4" title="Increases all stats by 2, while increasing level by 1, recalculating setExpToNextLevel and setting cu...">levelUp</a> and recurse on remaining exp after this level up. If not enough exp to level up, simply add this to <a class="el" href="class_player.html#ab21c747363b226e9e0f4493cb9d70409" title="The amount of exp points gained in current level">exp</a> <br />
  <a href="#aea5a87e9456ca8c655300367517c269e">More...</a><br /></td></tr>
@@ -101,6 +101,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00d472bd1111adabe2b54b66a21198f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player.html#a00d472bd1111adabe2b54b66a21198f4">levelUp</a> ()</td></tr>
 <tr class="memdesc:a00d472bd1111adabe2b54b66a21198f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases all stats by 2, while increasing level by 1, recalculating <a class="el" href="class_player.html#a6717692fe70ba9184e0450473e2cdd54" title="Defines the exp points to the next level as current level * 200">setExpToNextLevel</a> and setting current exp back to 0  <a href="#a00d472bd1111adabe2b54b66a21198f4">More...</a><br /></td></tr>
 <tr class="separator:a00d472bd1111adabe2b54b66a21198f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_character"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_character')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_character.html">Character</a></td></tr>
+<tr class="memitem:af99958faf7d77ee04b8bf7acec559641 inherit pub_methods_class_character"><td class="memItemLeft" align="right" valign="top"><a id="af99958faf7d77ee04b8bf7acec559641"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEnraged</b> ()</td></tr>
+<tr class="separator:af99958faf7d77ee04b8bf7acec559641 inherit pub_methods_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -142,6 +146,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Luck</b><code> [get, s
 <tr class="memitem:abec98d63bf0506641d9e4aeb68cb76b4 inherit properties_class_character"><td class="memItemLeft" align="right" valign="top"><a id="abec98d63bf0506641d9e4aeb68cb76b4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Speed</b><code> [get, set]</code></td></tr>
 <tr class="separator:abec98d63bf0506641d9e4aeb68cb76b4 inherit properties_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7277130759d4b42c5d86fd611003741b inherit properties_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a7277130759d4b42c5d86fd611003741b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Rage</b><code> [get, set]</code></td></tr>
+<tr class="separator:a7277130759d4b42c5d86fd611003741b inherit properties_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6c370e515366b16c9e29c97ed9db727 inherit properties_class_character"><td class="memItemLeft" align="right" valign="top"><a id="af6c370e515366b16c9e29c97ed9db727"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanRage</b><code> [get, set]</code></td></tr>
+<tr class="separator:af6c370e515366b16c9e29c97ed9db727 inherit properties_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a754ef355a60649ee739c9a9055b4de3c inherit properties_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a754ef355a60649ee739c9a9055b4de3c"></a>
 <a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Special1</b><code> [get, set]</code></td></tr>
 <tr class="separator:a754ef355a60649ee739c9a9055b4de3c inherit properties_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,9 +183,9 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_character"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_character')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_character.html">Character</a></td></tr>
-<tr class="memitem:af70f106372e3b0f3936a3701b9cb21f1 inherit pro_methods_class_character"><td class="memItemLeft" align="right" valign="top"><a id="af70f106372e3b0f3936a3701b9cb21f1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Character</b> (string name, int level, int health, int attack, int defence, int maximumMagic, int magic, int luck, int speed, <a class="el" href="class_special_move.html">SpecialMove</a> special1, <a class="el" href="class_special_move.html">SpecialMove</a> special2, string image_ref=null)</td></tr>
-<tr class="separator:af70f106372e3b0f3936a3701b9cb21f1 inherit pro_methods_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e5ba7057d09a2d81c813fecca629af inherit pro_methods_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a73e5ba7057d09a2d81c813fecca629af"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Character</b> (string name, int level, int health, int attack, int defence, int maximumMagic, int magic, int luck, int speed, bool canRage, <a class="el" href="class_special_move.html">SpecialMove</a> special1, <a class="el" href="class_special_move.html">SpecialMove</a> special2, Texture2D image=null)</td></tr>
+<tr class="separator:a73e5ba7057d09a2d81c813fecca629af inherit pro_methods_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_character"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_character')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_character.html">Character</a></td></tr>
 <tr class="memitem:adbfa3b858f99f337203a1bec67b2fe45 inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="adbfa3b858f99f337203a1bec67b2fe45"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
@@ -204,15 +214,21 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>luck</b></td></tr>
 <tr class="memitem:a9da48d375d938eddc1dbc79060078a61 inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a9da48d375d938eddc1dbc79060078a61"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>speed</b></td></tr>
 <tr class="separator:a9da48d375d938eddc1dbc79060078a61 inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab13c38a08e85df0a6714d6ca8257e69c inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="ab13c38a08e85df0a6714d6ca8257e69c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canRage</b></td></tr>
+<tr class="separator:ab13c38a08e85df0a6714d6ca8257e69c inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f24384b636f3af1ed17fdb568ffb4b inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a89f24384b636f3af1ed17fdb568ffb4b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rage</b></td></tr>
+<tr class="separator:a89f24384b636f3af1ed17fdb568ffb4b inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f66154ec25b980dcdcdc70e5ad9ee77 inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a7f66154ec25b980dcdcdc70e5ad9ee77"></a>
 <a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><b>special1</b></td></tr>
 <tr class="separator:a7f66154ec25b980dcdcdc70e5ad9ee77 inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8123fd6c7627005dfe094491c4aa0ba9 inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a8123fd6c7627005dfe094491c4aa0ba9"></a>
 <a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><b>special2</b></td></tr>
 <tr class="separator:a8123fd6c7627005dfe094491c4aa0ba9 inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3474bba558c96a5222ff6c0c9e494bdf inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="a3474bba558c96a5222ff6c0c9e494bdf"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>image_ref</b></td></tr>
-<tr class="separator:a3474bba558c96a5222ff6c0c9e494bdf inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2450b18eb4deeb550b1648f2bf5b504 inherit pro_attribs_class_character"><td class="memItemLeft" align="right" valign="top"><a id="af2450b18eb4deeb550b1648f2bf5b504"></a>
+Texture2D&#160;</td><td class="memItemRight" valign="bottom"><b>image</b></td></tr>
+<tr class="separator:af2450b18eb4deeb550b1648f2bf5b504 inherit pro_attribs_class_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines a playable character for use in battle scenes</p>

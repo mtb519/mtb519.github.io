@@ -1,0 +1,4 @@
+<map id="PlayerCollison" name="PlayerCollison">
+<area shape="rect" id="node2" href="$class_mono_behaviour.html" title="{MonoBehaviour\n||}" alt="" coords="5,5,116,83"/>
+<area shape="rect" id="node3" href="$class_player_controller.html" title="A controller for player movement of main player within the mini game " alt="" coords="114,145,229,237"/>
+</map>

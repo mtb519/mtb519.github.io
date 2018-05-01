@@ -5,7 +5,8 @@ var searchData=
   ['index',['index',['../class_container_data.html#a3350ba19f58ce3f2056a3f8c6784b038',1,'ContainerData']]],
   ['inrange',['inRange',['../class_healing_station.html#a24f76fd931ab565ac0073ea8633d2e18',1,'HealingStation']]],
   ['instance',['instance',['../class_global_functions.html#adbb2caafa723db66085745f04b4bf4af',1,'GlobalFunctions.instance()'],['../class_scene_changer.html#a3daa202648aa8924b623764c4cc0e4dd',1,'SceneChanger.instance()']]],
-  ['inventoryitemcontainers',['inventoryItemContainers',['../class_shop_menu.html#acab997ec13d4a4683818f48dffeeff68',1,'ShopMenu']]],
+  ['interactionended',['InteractionEnded',['../class_game_events.html#a7ef938fe9871033bf15b00d6b773f450',1,'GameEvents']]],
+  ['interactionstarted',['InteractionStarted',['../class_game_events.html#a7797d43dee5e5c451ec02760bb511f5b',1,'GameEvents']]],
   ['item',['item',['../class_global_functions.html#a1572a933876865657214462889de131a',1,'GlobalFunctions.item()'],['../class_player.html#a840287e9537842c7376ea8584e57d655',1,'Player.item()']]],
   ['itemcontainers',['itemContainers',['../class_items_menu_script.html#a4f0d9350b2f584cd3f65a16d74524f61',1,'ItemsMenuScript']]]
 ];

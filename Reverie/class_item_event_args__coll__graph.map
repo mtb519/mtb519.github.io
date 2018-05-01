@@ -1,0 +1,5 @@
+<map id="ItemEventArgs" name="ItemEventArgs">
+<area shape="rect" id="node2" href="$class_game_event_args.html" title="Base class for passing arguments with game events " alt="" coords="5,182,121,259"/>
+<area shape="rect" id="node3" href="$class_event_args.html" title="{EventArgs\n||}" alt="" coords="23,5,104,83"/>
+<area shape="rect" id="node4" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="220,160,323,281"/>
+</map>

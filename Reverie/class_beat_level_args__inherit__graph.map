@@ -1,0 +1,4 @@
+<map id="BeatLevelArgs" name="BeatLevelArgs">
+<area shape="rect" id="node2" href="$class_game_event_args.html" title="Base class for passing arguments with game events " alt="" coords="10,131,126,208"/>
+<area shape="rect" id="node3" href="$class_event_args.html" title="{EventArgs\n||}" alt="" coords="27,5,109,83"/>
+</map>

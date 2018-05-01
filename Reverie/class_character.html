@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="documentation_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Reverie
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.1</span>
    </div>
   </td>
  </tr>
@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
@@ -88,11 +89,17 @@ Collaboration diagram for Character:</div>
 </div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af99958faf7d77ee04b8bf7acec559641"><td class="memItemLeft" align="right" valign="top"><a id="af99958faf7d77ee04b8bf7acec559641"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEnraged</b> ()</td></tr>
+<tr class="separator:af99958faf7d77ee04b8bf7acec559641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af70f106372e3b0f3936a3701b9cb21f1"><td class="memItemLeft" align="right" valign="top"><a id="af70f106372e3b0f3936a3701b9cb21f1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Character</b> (string name, int level, int health, int attack, int defence, int maximumMagic, int magic, int luck, int speed, <a class="el" href="class_special_move.html">SpecialMove</a> special1, <a class="el" href="class_special_move.html">SpecialMove</a> special2, string image_ref=null)</td></tr>
-<tr class="separator:af70f106372e3b0f3936a3701b9cb21f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e5ba7057d09a2d81c813fecca629af"><td class="memItemLeft" align="right" valign="top"><a id="a73e5ba7057d09a2d81c813fecca629af"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Character</b> (string name, int level, int health, int attack, int defence, int maximumMagic, int magic, int luck, int speed, bool canRage, <a class="el" href="class_special_move.html">SpecialMove</a> special1, <a class="el" href="class_special_move.html">SpecialMove</a> special2, Texture2D image=null)</td></tr>
+<tr class="separator:a73e5ba7057d09a2d81c813fecca629af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -123,15 +130,21 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>luck</b></td></tr>
 <tr class="memitem:a9da48d375d938eddc1dbc79060078a61"><td class="memItemLeft" align="right" valign="top"><a id="a9da48d375d938eddc1dbc79060078a61"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>speed</b></td></tr>
 <tr class="separator:a9da48d375d938eddc1dbc79060078a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab13c38a08e85df0a6714d6ca8257e69c"><td class="memItemLeft" align="right" valign="top"><a id="ab13c38a08e85df0a6714d6ca8257e69c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canRage</b></td></tr>
+<tr class="separator:ab13c38a08e85df0a6714d6ca8257e69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f24384b636f3af1ed17fdb568ffb4b"><td class="memItemLeft" align="right" valign="top"><a id="a89f24384b636f3af1ed17fdb568ffb4b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rage</b></td></tr>
+<tr class="separator:a89f24384b636f3af1ed17fdb568ffb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f66154ec25b980dcdcdc70e5ad9ee77"><td class="memItemLeft" align="right" valign="top"><a id="a7f66154ec25b980dcdcdc70e5ad9ee77"></a>
 <a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><b>special1</b></td></tr>
 <tr class="separator:a7f66154ec25b980dcdcdc70e5ad9ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8123fd6c7627005dfe094491c4aa0ba9"><td class="memItemLeft" align="right" valign="top"><a id="a8123fd6c7627005dfe094491c4aa0ba9"></a>
 <a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><b>special2</b></td></tr>
 <tr class="separator:a8123fd6c7627005dfe094491c4aa0ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3474bba558c96a5222ff6c0c9e494bdf"><td class="memItemLeft" align="right" valign="top"><a id="a3474bba558c96a5222ff6c0c9e494bdf"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>image_ref</b></td></tr>
-<tr class="separator:a3474bba558c96a5222ff6c0c9e494bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2450b18eb4deeb550b1648f2bf5b504"><td class="memItemLeft" align="right" valign="top"><a id="af2450b18eb4deeb550b1648f2bf5b504"></a>
+Texture2D&#160;</td><td class="memItemRight" valign="bottom"><b>image</b></td></tr>
+<tr class="separator:af2450b18eb4deeb550b1648f2bf5b504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -162,6 +175,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Luck</b><code> [get, s
 <tr class="memitem:abec98d63bf0506641d9e4aeb68cb76b4"><td class="memItemLeft" align="right" valign="top"><a id="abec98d63bf0506641d9e4aeb68cb76b4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Speed</b><code> [get, set]</code></td></tr>
 <tr class="separator:abec98d63bf0506641d9e4aeb68cb76b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7277130759d4b42c5d86fd611003741b"><td class="memItemLeft" align="right" valign="top"><a id="a7277130759d4b42c5d86fd611003741b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Rage</b><code> [get, set]</code></td></tr>
+<tr class="separator:a7277130759d4b42c5d86fd611003741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6c370e515366b16c9e29c97ed9db727"><td class="memItemLeft" align="right" valign="top"><a id="af6c370e515366b16c9e29c97ed9db727"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanRage</b><code> [get, set]</code></td></tr>
+<tr class="separator:af6c370e515366b16c9e29c97ed9db727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a754ef355a60649ee739c9a9055b4de3c"><td class="memItemLeft" align="right" valign="top"><a id="a754ef355a60649ee739c9a9055b4de3c"></a>
 <a class="el" href="class_special_move.html">SpecialMove</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Special1</b><code> [get, set]</code></td></tr>
 <tr class="separator:a754ef355a60649ee739c9a9055b4de3c"><td class="memSeparator" colspan="2">&#160;</td></tr>

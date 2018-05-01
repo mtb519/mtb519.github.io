@@ -1,0 +1,4 @@
+<map id="BattleMoveArgs" name="BattleMoveArgs">
+<area shape="rect" id="node2" href="$class_game_event_args.html" title="Base class for passing arguments with game events " alt="" coords="14,131,130,208"/>
+<area shape="rect" id="node3" href="$class_event_args.html" title="{EventArgs\n||}" alt="" coords="31,5,113,83"/>
+</map>

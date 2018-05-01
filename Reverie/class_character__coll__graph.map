@@ -1,8 +1,8 @@
 <map id="Character" name="Character">
-<area shape="rect" id="node5" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="444,1108,559,1215"/>
-<area shape="rect" id="node7" href="$class_enemy.html" title="Defines an AI controller enemy to fight in battle scenes" alt="" coords="450,601,539,678"/>
-<area shape="rect" id="node9" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="276,564,425,715"/>
-<area shape="rect" id="node4" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="533,1264,664,1385"/>
-<area shape="rect" id="node6" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="336,792,491,1045"/>
-<area shape="rect" id="node10" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="155,314,258,421"/>
+<area shape="rect" id="node6" href="$class_character_move.html" title="Astract base class for character moves " alt="" coords="157,1167,272,1273"/>
+<area shape="rect" id="node8" href="$class_enemy.html" title="Defines an AI controller enemy to fight in battle scenes" alt="" coords="346,659,435,737"/>
+<area shape="rect" id="node9" href="$class_player.html" title="Defines a playable character for use in battle scenes" alt="" coords="511,623,660,773"/>
+<area shape="rect" id="node5" href="$class_special_move.html" title="Special move abstract base class that expands upon CharacterMove, adding magic properties ..." alt="" coords="212,1323,343,1444"/>
+<area shape="rect" id="node7" href="$class_battle_manager.html" title="Holds current Player and Enemy objects in battle and provides functions for MainBattle and other obje..." alt="" coords="395,851,549,1104"/>
+<area shape="rect" id="node10" href="$class_item.html" title="Abstract class for items that can be equipped to a player, increasing some of their stats ..." alt="" coords="505,343,607,465"/>
 </map>

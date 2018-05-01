@@ -1,0 +1,13 @@
+<map id="GameEvents.GameEvent&lt; TGameEventArgs &gt;" name="GameEvents.GameEvent&lt; TGameEventArgs &gt;">
+<area shape="rect" id="node2" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; SceneChangedEventArgs \&gt;\n||+ signal()\l}" alt="" coords="5,160,199,252"/>
+<area shape="rect" id="node3" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; BattleEndedEventArgs \&gt;\n||+ signal()\l}" alt="" coords="223,160,399,252"/>
+<area shape="rect" id="node4" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; CharacterEventArgs \&gt;\n||+ signal()\l}" alt="" coords="424,160,591,252"/>
+<area shape="rect" id="node5" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; InteractionArgs \&gt;\n||+ signal()\l}" alt="" coords="615,160,781,252"/>
+<area shape="rect" id="node6" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; IntChangedArgs \&gt;\n||+ signal()\l}" alt="" coords="805,160,972,252"/>
+<area shape="rect" id="node7" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; BattleMoveArgs \&gt;\n||+ signal()\l}" alt="" coords="996,160,1163,252"/>
+<area shape="rect" id="node8" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; BattleEventArgs \&gt;\n||+ signal()\l}" alt="" coords="1187,160,1353,252"/>
+<area shape="rect" id="node9" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; BattleStartedEventArgs \&gt;\n||+ signal()\l}" alt="" coords="1378,160,1559,252"/>
+<area shape="rect" id="node10" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; ItemEventArgs \&gt;\n||+ signal()\l}" alt="" coords="1584,160,1751,252"/>
+<area shape="rect" id="node11" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; BeatLevelArgs \&gt;\n||+ signal()\l}" alt="" coords="1775,160,1941,252"/>
+<area shape="rect" id="node12" href="$class_game_events_1_1_game_event.html" title="{GameEvents.GameEvent\l\&lt; GameEventArgs \&gt;\n||+ signal()\l}" alt="" coords="1965,160,2132,252"/>
+</map>

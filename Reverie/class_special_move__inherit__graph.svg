@@ -74,7 +74,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="0,-0.5 0,-68.5 86,-68.5 86,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="43" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">HealingSpell</text>
 <polyline fill="none" stroke="black" points="0,-49.5 86,-49.5 "/>
-<text text-anchor="start" x="8" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; increase</text>
+<text text-anchor="start" x="8" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ increase</text>
 <polyline fill="none" stroke="black" points="0,-30.5 86,-30.5 "/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ HealingSpell()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>
@@ -92,7 +92,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="104,-0.5 104,-68.5 202,-68.5 202,-0.5 104,-0.5"/>
 <text text-anchor="middle" x="153" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">IncreaseMoney</text>
 <polyline fill="none" stroke="black" points="104,-49.5 202,-49.5 "/>
-<text text-anchor="start" x="112" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; increase</text>
+<text text-anchor="start" x="112" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ increase</text>
 <polyline fill="none" stroke="black" points="104,-30.5 202,-30.5 "/>
 <text text-anchor="start" x="112" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ IncreaseMoney()</text>
 <text text-anchor="start" x="112" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>
@@ -110,7 +110,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="220,-0.5 220,-68.5 312,-68.5 312,-0.5 220,-0.5"/>
 <text text-anchor="middle" x="266" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">LowerDefence</text>
 <polyline fill="none" stroke="black" points="220,-49.5 312,-49.5 "/>
-<text text-anchor="start" x="228" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; decrease</text>
+<text text-anchor="start" x="228" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ decrease</text>
 <polyline fill="none" stroke="black" points="220,-30.5 312,-30.5 "/>
 <text text-anchor="start" x="228" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LowerDefence()</text>
 <text text-anchor="start" x="228" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>
@@ -128,7 +128,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="330,-0.5 330,-68.5 416,-68.5 416,-0.5 330,-0.5"/>
 <text text-anchor="middle" x="373" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">LowerSpeed</text>
 <polyline fill="none" stroke="black" points="330,-49.5 416,-49.5 "/>
-<text text-anchor="start" x="338" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; decrease</text>
+<text text-anchor="start" x="338" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ decrease</text>
 <polyline fill="none" stroke="black" points="330,-30.5 416,-30.5 "/>
 <text text-anchor="start" x="338" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LowerSpeed()</text>
 <text text-anchor="start" x="338" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>
@@ -146,7 +146,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="434,-0.5 434,-68.5 520,-68.5 520,-0.5 434,-0.5"/>
 <text text-anchor="middle" x="477" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">MagicAttack</text>
 <polyline fill="none" stroke="black" points="434,-49.5 520,-49.5 "/>
-<text text-anchor="start" x="442" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; power</text>
+<text text-anchor="start" x="442" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ power</text>
 <polyline fill="none" stroke="black" points="434,-30.5 520,-30.5 "/>
 <text text-anchor="start" x="442" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MagicAttack()</text>
 <text text-anchor="start" x="442" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>
@@ -164,7 +164,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="538,-0.5 538,-68.5 624,-68.5 624,-0.5 538,-0.5"/>
 <text text-anchor="middle" x="581" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">RaiseAttack</text>
 <polyline fill="none" stroke="black" points="538,-49.5 624,-49.5 "/>
-<text text-anchor="start" x="546" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; increase</text>
+<text text-anchor="start" x="546" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ increase</text>
 <polyline fill="none" stroke="black" points="538,-30.5 624,-30.5 "/>
 <text text-anchor="start" x="546" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ RaiseAttack()</text>
 <text text-anchor="start" x="546" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>
@@ -182,7 +182,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="642,-0.5 642,-68.5 734,-68.5 734,-0.5 642,-0.5"/>
 <text text-anchor="middle" x="688" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">RaiseDefence</text>
 <polyline fill="none" stroke="black" points="642,-49.5 734,-49.5 "/>
-<text text-anchor="start" x="650" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; increase</text>
+<text text-anchor="start" x="650" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ increase</text>
 <polyline fill="none" stroke="black" points="642,-30.5 734,-30.5 "/>
 <text text-anchor="start" x="650" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ RaiseDefence()</text>
 <text text-anchor="start" x="650" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ performMove()</text>

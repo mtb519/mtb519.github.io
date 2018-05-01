@@ -1,0 +1,9 @@
+<map id="DataManager.StoredData.SpecialMove" name="DataManager.StoredData.SpecialMove">
+<area shape="rect" id="node2" href="$class_data_manager_1_1_stored_data_1_1_healing_spell.html" title="{DataManager.StoredData.Healing\lSpell\n|+ increase\l|}" alt="" coords="5,160,220,252"/>
+<area shape="rect" id="node3" href="$class_data_manager_1_1_stored_data_1_1_increase_money.html" title="{DataManager.StoredData.Increase\lMoney\n|+ increase\l|}" alt="" coords="245,160,466,252"/>
+<area shape="rect" id="node4" href="$class_data_manager_1_1_stored_data_1_1_lower_defence.html" title="{DataManager.StoredData.Lower\lDefence\n|+ decrease\l|}" alt="" coords="491,160,697,252"/>
+<area shape="rect" id="node5" href="$class_data_manager_1_1_stored_data_1_1_lower_speed.html" title="{DataManager.StoredData.Lower\lSpeed\n|+ decrease\l|}" alt="" coords="721,160,928,252"/>
+<area shape="rect" id="node6" href="$class_data_manager_1_1_stored_data_1_1_magic_attack.html" title="{DataManager.StoredData.Magic\lAttack\n|+ power\l|}" alt="" coords="952,160,1159,252"/>
+<area shape="rect" id="node7" href="$class_data_manager_1_1_stored_data_1_1_raise_attack.html" title="{DataManager.StoredData.Raise\lAttack\n|+ increase\l|}" alt="" coords="1183,160,1389,252"/>
+<area shape="rect" id="node8" href="$class_data_manager_1_1_stored_data_1_1_raise_defence.html" title="{DataManager.StoredData.Raise\lDefence\n|+ increase\l|}" alt="" coords="1413,160,1618,252"/>
+</map>

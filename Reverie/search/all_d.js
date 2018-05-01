@@ -1,12 +1,26 @@
 var searchData=
 [
   ['objectinteraction',['ObjectInteraction',['../class_object_interaction.html',1,'']]],
-  ['objectsactive',['objectsActive',['../class_global_functions.html#a23e7a1977974f6229fce6848033a1b7f',1,'GlobalFunctions.objectsActive()'],['../class_save_container.html#a53c8a903fec6275afb365d9bb7cf299e',1,'SaveContainer.objectsActive()']]],
+  ['objectivedropdown',['ObjectiveDropdown',['../class_quest_create_menu_script.html#aaee52eab04979ab006f0074d99d6a933',1,'QuestCreateMenuScript']]],
+  ['objectivestate',['ObjectiveState',['../class_quest_objective.html#ab0f5e3c133cad8de8b07d0c45fecfa29',1,'QuestObjective']]],
+  ['objectsactive',['objectsActive',['../class_global_functions.html#a23e7a1977974f6229fce6848033a1b7f',1,'GlobalFunctions']]],
+  ['obtaineditem',['ObtainedItem',['../class_game_events.html#a068100c6b85da3c6544a98d8a061952b',1,'GameEvents']]],
+  ['obtainedplayer',['ObtainedPlayer',['../class_game_events.html#a96447d31325dd215915cffa6eab2f60f',1,'GameEvents']]],
+  ['obtainitem',['ObtainItem',['../class_quest_objectives_1_1_obtain_item.html',1,'QuestObjectives.ObtainItem'],['../class_quest_objectives_1_1_obtain_item.html#a433a3db3a78646ddce111cc5f213383f',1,'QuestObjectives.ObtainItem.ObtainItem(Item item)'],['../class_quest_objectives_1_1_obtain_item.html#aa4c08ff2c25ea86e66059bdf21e0227a',1,'QuestObjectives.ObtainItem.ObtainItem(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)']]],
+  ['obtainplayer',['ObtainPlayer',['../class_quest_objectives_1_1_obtain_player.html',1,'QuestObjectives.ObtainPlayer'],['../class_quest_objectives_1_1_obtain_player.html#a23c49cdd6a07ae8ae1e19036fd1f3175',1,'QuestObjectives.ObtainPlayer.ObtainPlayer(string name)'],['../class_quest_objectives_1_1_obtain_player.html#aed511c44f448586568229fa0d41d114c',1,'QuestObjectives.ObtainPlayer.ObtainPlayer(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)']]],
+  ['oncollisionenter2d',['OnCollisionEnter2D',['../class_collsion.html#a40e43187088730c87f69bd5d9844c1b0',1,'Collsion']]],
+  ['oncompleted',['OnCompleted',['../class_quest_objective.html#ab8ab301a6d95a2ea70a87fc9d3515cd5',1,'QuestObjective']]],
+  ['oncompletedobjective',['OnCompletedObjective',['../class_quest.html#a5502f66f7de7748507c6bda96f9ce37a',1,'Quest']]],
   ['ondisable',['OnDisable',['../class_scene_changer.html#ad2b1cf127413965b7891a6cd6be4610a',1,'SceneChanger']]],
+  ['onexitedtomainmenu',['OnExitedToMainMenu',['../class_quest_objective.html#aefacb9b17d4139f99743fecd53120053',1,'QuestObjective']]],
+  ['onfailed',['OnFailed',['../class_quest_objective.html#a25965a7a75fc353439251fd9afd015c1',1,'QuestObjective']]],
+  ['onfailedobjective',['OnFailedObjective',['../class_quest.html#a7aa9425dff87ae1572aab6305c536a3a',1,'Quest']]],
   ['onitemplace',['OnItemPlace',['../class_items_menu_script.html#a90d12e639c4deea70d06fa22e73a9ff2',1,'ItemsMenuScript.OnItemPlace()'],['../class_player_menu.html#a3a02f81db9e60a6add3b52a22e5c8f4e',1,'PlayerMenu.OnItemPlace()']]],
-  ['ontriggerenter2d',['OnTriggerEnter2D',['../class_portal.html#a168c1b61f11d31c85c40f829104b39f5',1,'Portal']]],
+  ['ontriggerenter2d',['OnTriggerEnter2D',['../class_portal.html#a168c1b61f11d31c85c40f829104b39f5',1,'Portal.OnTriggerEnter2D()'],['../class_player_collison.html#a11ff9f51f5f81b28b3f1c1f7e38b6474',1,'PlayerCollison.OnTriggerEnter2D()']]],
   ['ontriggerexit2d',['OnTriggerExit2D',['../class_healing_station.html#a900ec4f9a6b6546a541726b7102c3b99',1,'HealingStation']]],
   ['ontriggerstay2d',['OnTriggerStay2D',['../class_healing_station.html#a0c922b04c18d1e279b7d77445b06c196',1,'HealingStation.OnTriggerStay2D()'],['../class_object_interaction.html#acabe720844401c6491e28f102ae929fc',1,'ObjectInteraction.OnTriggerStay2D()']]],
-  ['openshop',['openShop',['../class_object_interaction.html#a0ddce303654c1f91fa8ba7e0f1240938',1,'ObjectInteraction']]],
-  ['optionpressed',['optionPressed',['../class_exploration_menu_script.html#af4951d7ee5f4c581109212a34942176e',1,'ExplorationMenuScript']]]
+  ['openedinventory',['OpenedInventory',['../class_game_events.html#a58856988804e206f61c70b07bdb961f9',1,'GameEvents']]],
+  ['openedparty',['OpenedParty',['../class_game_events.html#a0079aa49b1ae033bc29c2a16f71b8833',1,'GameEvents']]],
+  ['openedquests',['OpenedQuests',['../class_game_events.html#a4f62f9bb5dcf5eccc76f77f5644398e1',1,'GameEvents']]],
+  ['openedshop',['OpenedShop',['../class_game_events.html#a3f821072c4158662cce1613a1a788432',1,'GameEvents']]]
 ];

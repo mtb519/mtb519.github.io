@@ -1,7 +1,0 @@
-<map id="DuckAI" name="DuckAI">
-<area shape="rect" id="node5" href="$class_goal.html" title="{Goal\n||&#45; Start()\l&#45; OnTriggerEnter2D()\l}" alt="" coords="227,476,368,568"/>
-<area shape="rect" id="node9" href="$class_race_manager.html" title="{RaceManager\n||+ PlayerHitGoal()\l+ GetNextGoal()\l+ PositionInArray()\l&#45; Start()\l&#45; Update()\l&#45; UpdatePlayerTimingText()\l&#45; LapTimeToString()\l&#45; FindPlayerRacePosition()\l&#45; SetPlayerLapText()\l&#45; UpdatePlayerPositionText()\l&#45; EndMinigame()\l}" alt="" coords="887,660,1075,884"/>
-<area shape="rect" id="node2" href="$class_mono_behaviour.html" title="{MonoBehaviour\n||}" alt="" coords="567,5,678,83"/>
-<area shape="rect" id="node4" href="$class_boid.html" title="{Boid\n||&#45; Start()\l&#45; Update()\l&#45; FixedUpdate()\l}" alt="" coords="131,719,242,825"/>
-<area shape="rect" id="node10" href="$class_countdown.html" title="{Countdown\n||+ StartCountdown()\l+ Update()\l}" alt="" coords="1526,476,1661,568"/>
-</map>

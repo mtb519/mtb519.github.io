@@ -1,7 +1,0 @@
-<map id="Goal" name="Goal">
-<area shape="rect" id="node6" href="$class_boid.html" title="{Boid\n||&#45; Start()\l&#45; Update()\l&#45; FixedUpdate()\l}" alt="" coords="258,300,369,407"/>
-<area shape="rect" id="node9" href="$class_race_manager.html" title="{RaceManager\n||+ PlayerHitGoal()\l+ GetNextGoal()\l+ PositionInArray()\l&#45; Start()\l&#45; Update()\l&#45; UpdatePlayerTimingText()\l&#45; LapTimeToString()\l&#45; FindPlayerRacePosition()\l&#45; SetPlayerLapText()\l&#45; UpdatePlayerPositionText()\l&#45; EndMinigame()\l}" alt="" coords="571,727,759,951"/>
-<area shape="rect" id="node2" href="$class_mono_behaviour.html" title="{MonoBehaviour\n||}" alt="" coords="109,5,219,83"/>
-<area shape="rect" id="node4" href="$class_duck_a_i.html" title="{DuckAI\n||+ BoidReachedGoal()\l+ PlayerHitGoal()\l&#45; Start()\l&#45; LateUpdate()\l&#45; MoveTowardsOtherBoids()\l&#45; AvoidOtherBoids()\l&#45; MoveTowardsGoal()\l}" alt="" coords="223,499,404,664"/>
-<area shape="rect" id="node10" href="$class_countdown.html" title="{Countdown\n||+ StartCountdown()\l+ Update()\l}" alt="" coords="765,535,899,627"/>
-</map>

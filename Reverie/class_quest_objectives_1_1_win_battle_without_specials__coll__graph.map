@@ -1,0 +1,3 @@
+<map id="QuestObjectives.WinBattleWithoutSpecials" name="QuestObjectives.WinBattleWithoutSpecials">
+<area shape="rect" id="node2" href="$class_quest_objective.html" title="Base quest objective class to be extended by actual quest objectives " alt="" coords="177,160,343,428"/>
+</map>
